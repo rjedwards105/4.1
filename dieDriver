@@ -1,0 +1,7 @@
+public class dieDriver
+{
+    public static void main(String args[])
+    {
+        Die someDie = new Die();
+    }
+}
