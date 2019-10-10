@@ -1,0 +1,21 @@
+import java.util.*;
+import java.util.Random.*;
+public class Die {
+    public static void main(String args[])
+    {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("How many sides do you want?: ");
+        int dieSides;
+        dieSides = keyboard.nextInt();
+        System.out.println();
+
+        Random number = new Random();
+        int roll;
+        roll = number.nextInt(dieSides);
+
+
+        System.out.println("You have rolled a " + roll);
+
+
+    }
+}
